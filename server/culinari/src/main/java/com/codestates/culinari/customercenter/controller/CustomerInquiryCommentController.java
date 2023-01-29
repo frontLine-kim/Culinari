@@ -7,6 +7,7 @@ import com.codestates.culinari.customercenter.dto.request.CsInquiryPatch;
 import com.codestates.culinari.customercenter.dto.response.CsInquiryCommentResponse;
 import com.codestates.culinari.customercenter.entity.CsInquiryComment;
 import com.codestates.culinari.customercenter.service.CustomerInquiryCommentService;
+import com.codestates.culinari.global.aop.annotation.Timer;
 import com.codestates.culinari.pagination.PageResponseDto;
 import com.codestates.culinari.pagination.service.PaginationService;
 import com.codestates.culinari.response.SingleResponseDto;
@@ -44,6 +45,7 @@ public class CustomerInquiryCommentController {
                 HttpStatus.CREATED);
     }
 
+    @Timer
     @GetMapping("/{inquiry-id}/comments")
     public ResponseEntity getEnquireCommentPage(@AuthenticationPrincipal CustomPrincipal customPrincipal,
                                                 @PathVariable("inquiry-id") Long inquiryId,
@@ -57,6 +59,7 @@ public class CustomerInquiryCommentController {
                 HttpStatus.OK);
     }
 
+    @Timer
     @GetMapping("/comments/{comment-id}")
     public ResponseEntity getEnquireComment(@AuthenticationPrincipal CustomPrincipal customPrincipal,
                                             @PathVariable("comment-id") Long commentId) {
