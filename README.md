@@ -1,4 +1,5 @@
-# seb41_main_017
+# Culinari 
+  BE 김진수 개발 Part 소개
 
 # Git, Board 컨벤션
 
