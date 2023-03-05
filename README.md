@@ -11,6 +11,12 @@
     1. 도메인 설계 및 구현 방식의 선정
      https://romanc3.tistory.com/45
 ### - 비지니스 로직 설계
+    1. 신상품 페이지네이션
+    <img src ="./newProduct.png">
+    2. 베스트상품 페이지네이션
+    <img src ="./bestProduct.png">
+    
+    https://romanc3.tistory.com/46
 
 ### - 이미지 업로드 구현
 ### - Github Action 적용
