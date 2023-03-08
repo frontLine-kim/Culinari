@@ -17,6 +17,15 @@
 <img src ="./bestProduct.png">
 
     https://romanc3.tistory.com/46
+    
+   3. 찜한 상품
+<img src ="./productLike.png">
+   4. 리뷰
+<img src ="./review.png">
+   5. 통합 검색
+<img src ="./Search.png">
+
+    https://romanc3.tistory.com/47
 
 ### - 이미지 업로드 구현
     https://romanc3.tistory.com/40
