@@ -1,6 +1,6 @@
 # Culinari 
 <img src = "./Untitled.png">
-## 원본 PR 및 이슈 확인은 Origin Repo : https://github.com/codestates-seb/seb41_main_017
+## 원본 PR 및 이슈 확인은 Origin Repo : https://github.com/codestates-seb/seb41_main_017 <br>
 ##  BE 김진수 개발 Part 소개
 이 프로젝트는 코드스테이츠 부트캠프 진행 간 마지막의 메인으로 만든 프로젝트입니다.
 이커머스 방식의 웹 애플리케이션을 제작하려고 했으며, 거기에 우리의 로직을 얹으려 했으나 이커머스 자체의 사이즈를 너무 크게 잡아 기본에 충실한 프로젝트가 돼버리고 말았습니다,
